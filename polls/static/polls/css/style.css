@@ -1,5 +1,5 @@
 body {
-    background-color: #FAEBD7;
+    background: white url("../images/background.jpg") no-repeat center center;
     font-family: Arial, Helvetica, sans-serif;
     color: #846075;
 }
@@ -31,10 +31,12 @@ ul {
 li{
     padding: 10px;
 }
-
+li a {
+    color: green;
+}
 .vote-btn {
     background-color: #2A9D8F;
-    color: FAEBD7;
+    color: #FAEBD7;
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
